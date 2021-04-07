@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="img/github.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Sign in to GitHub · GitHub</title>
 </head>
 <body>
-    <section class="login-user">    
-        <img src="img/github.png" alt="Github-icon">
 
-        <label for="nickname"> Nome de Usuário ou endereço de Email</label>
-        <input type="text" name="nickname" id="nickname">
+    <div class="login-box">
 
-        <span><a href="">Esqueceu sua senha?</a></span>
+        <header>
+            <a href="https://github.com/"><img class="img-logo" src="img/github.png" alt="Github-icon"></a>
 
-        <label for="password">Senha</label>
-        <input type="text" name="password" id="password">
+            <h1>Faça login no GitHub</h1>
+        </header>
 
-        <button>Entrar</button>
-    </section>
+        <section>
+            <form class="form-login">
+                <label for="nickname"> Nome de usuário ou endereço de e-mail</label>
+                <input type="text" name="nickname" id="nickname" class="credentials">
 
-    <section class="cadastro-user">
-        <p>Novo no GitHub? <a href="">Crie uma conta</a>.</p>
-    </section>
+                <span><a href="https://github.com/password_reset">Esqueceu a senha?</a></span>
 
-    <section class="options-github">
-        <p><a href="">Termos</a></p>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" class="credentials">
 
-        <p><a href="">Privacidade</a></p>
-        
-        <p><a href="">Segurança</a></p>
+                <button>Entrar</button>
+            </form>
+        </section>
 
-        <p><a href="">Entre em contato com o GitHub</a></p>
-    </section>
+        <section class="cadastro-user">
+            <p>Novo no GitHub? <a href="https://github.com/join?source=login" id="cadastro-link">Crie uma conta</a>.</p>
+        </section>
+    </div>
+
+    <div class="footer">
+        <footer class="options-github">
+            <p><a href="https://github.com/site/terms">termos</a></p>
+
+            <p><a href="https://github.com/site/privacy">privacidade</a></p>
+            
+            <p><a href="https://docs.github.com/articles/github-security/">segurança</a></p>
+
+            <p id="contato-github"><a href="https://github.com/contact">Entrar em contato com o GitHub</a></p>
+        </footer>
+    </div>
+
 </body>
 </html>
