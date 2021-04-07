@@ -1,0 +1,131 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(58, 58, 58);
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 25px;
+    padding-top: 5px;
+    font-size: 1.55em;
+    font-weight: lighter;
+    letter-spacing: -0.05em;
+}
+
+.img-logo {
+    width: 48px;
+}
+
+.login-box {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.form-login {
+    background: rgb(245, 248, 255);
+    display: block;
+    position: relative;
+    border: 1.5px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 20px;
+    height: 190px;
+}
+
+form label {
+    margin: 20px 0 10px 0;
+    font-size: 0.9em;
+}
+
+span {
+    position:absolute;
+    top: 90px;
+    right: 15px;
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    height: 32.5px;
+    background: rgb(1, 177, 1);
+    border: 0.5px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+}
+
+#contato-github a{
+    color: gray;
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(48, 104, 224);
+    font-size: 0.78em;
+    font-weight: 100;
+    letter-spacing: 0.03em;
+}
+
+a:hover, #contato-github a:hover {
+    text-decoration:underline rgb(48, 104, 224);
+    color: rgb(48, 104, 224);
+}
+
+.credentials {
+    width: 97%;
+    margin: 1em 0;
+    height: 30px;
+    border: 1.5px solid rgb(238, 238, 238);
+    border-radius: 8px;
+    outline: none;
+}
+
+.cadastro-user {
+    margin-top: 20px;
+    padding: 17px 0;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#cadastro-link {
+    font-size: 00.95rem;
+}
+
+.footer {
+    width: 380px;
+    margin: 0 auto;
+
+}
+.options-github {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-top: 45px;
+}
+
+.credentials:focus, button:focus {
+    box-shadow: 0 0 0 4px rgba(128, 161, 253, 0.692),
+                0 0 0 1px blue;
+
+}
+
+button:focus {
+    box-shadow: 0 0 0 4px rgba(128, 161, 253, 0.692),
+}
+
+button:hover {
+    background:rgb(0, 163, 0);
+    transition: 0.75s all;
+    cursor: pointer;
+}
